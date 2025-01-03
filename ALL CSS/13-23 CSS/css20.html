@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+<style>
+    *{
+        box-sizing:border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #26cbf8;
+    }
+    .container {
+        background-color: rgb(231, 230, 241);
+        border: 3px solid rgb (64, 6, 119);
+    /* We can set margin/padding for  top, bottom, left and right like this */ */
+             /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 34px; 
+            padding-right: 79px;
+
+            margin-top: 3px;
+            margin-bottom: 5px;
+            margin-left: 34px;
+            margin-right:5px ;  */
+
+             /* margin = top right bottom left;  
+             padding = top right bottom left;   */
+
+            /* padding: 23px 56px 6px 78px;  
+            margin: 23px 56px 6px 78px;  
+        
+            padding: y(top/bottom) x(left/right);
+            margin: y(top/bottom) x(left/right); */
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius:23px;
+            width: 533px;
+} 
+</style>
+</head>
+<div class= "container">
+<h3> this is my heading</h3>    
+<p id= "first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure, ad perspiciatis et quas tempore!</p>
+</div>
+
+<div class= "container">
+    <h3> this is my heading</h3>    
+    <p id= "second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure, ad perspiciatis et quas tempore!</p>
+    </div>
+    <div class= "container">
+        <h3> this is my heading</h3>    
+        <p id= "third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure, ad perspiciatis et quas tempore!</p>
+        </div>
+<body>
+    
+</body>
+</html>
+
+<!-- /* The box model helps us to define the padding, border, and margin around an element. */ -->
+
+There is padding or margin shorthand for all directions. The first value is for top, 2nd value is for the bottom, 3rd value is for left and 4th value is for right.
+
+<!-- padding: 23px 56px 6px 78px;  
+margin: 23px 56px 6px 78px;   
+There is another technique for using the shorthand technique if you want to give the same values for left/right and top/bottom. The first value is the same for both the top and bottom and the second value is the same for both left and right. The two values can be represented as x and y values.
+
+padding: 23px 56px; -->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Height, width, borders and backgrounds</title>
+<style>
+    #firstPara{
+        background-color: red;
+        height: 100px;
+        width: 445px;
+        border: 4px solid green;
+        /* border-width: 4px;
+        border-color: green;
+        border-style:solid; */
+    border-radius: 11px;
+
+    }
+    #secondPara{
+        background-color: rgb(58, 243, 95);
+        height: 100px;
+        width: 455px;
+        border-top: 2px solid rgb(231, 22, 231);
+        border-right: 2px solid rgb(18, 10,133);
+        border-bottom: 2px solid rgba (9, 144, 27, 0.774);
+        border-left: 2px soild rgb (156, 43,13);
+        border-top-left-radius: 4px;
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 24px;
+    }
+    #thirdPara{
+        height: 500px;
+        width:455px;
+        background-image: url ('https://codewithharry.com/static/common/img/photo.png');
+        border: 2px solid red;
+        background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+            /* background-position: 192px 34px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position: top center; */ 
+         
+    }
+</style>
+</head>
+<body>
+    <h3> this is heading</h3>
+    <p id= "firstPara"> this is a paragraph </p>
+    <h3> this is second heading</h3>
+    <p id= "secondPara"> this is my second paragraph </p>
+    <h3> this is third heading</h3>
+    <p id= "thirdPara"> this is my third paragraph </p>
+</body>
+</html>
+
+<!-- There are two methods for adding a background image. Firstly, you can add directly by adding an URL of the image from website. Secondly, if you are having the files on your local computer, you can directly copy the path of the image.  -->
